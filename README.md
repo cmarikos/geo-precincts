@@ -30,9 +30,7 @@ Install GDAL in your virtual environment with the following command
 ```
 
 ### Step 3
-Open VS code, or your IDE of choice. Open the folder that corresponds to your virtual environment.
-
-Activate your virtual environment with this command in the terminal:
+Activate your virtual environment in your IDE with this command in the terminal:
 ```zsh
 geoenvcmarikos@MacBookAir geoenv % source bin/activate
 ```
@@ -42,7 +40,7 @@ When it's been successfully activated your terminal will print the following:
 (geoenv) geoenvcmarikos@MacBookAir geoenv % 
 ```
 
-Create a file named test_gdal.py and make sure GDAL is installed correctly by writing the following:
+Make sure GDAL is installed correctly:
 ```python
 # print the following error if GDAL is not installed correctly
 try:
