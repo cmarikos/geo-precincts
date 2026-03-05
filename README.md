@@ -1,3 +1,5 @@
+I use GDAL to get shapefiles into BigQuery in WKT format so I can make maps in Looker Studio. The uses for this library are as broad as your imagination. Here is what you'll need to do to get going.
+
 ### Step 1
 We're going to use [GDAL](https://gdal.org/en/stable/)which is a translator library for geospatial data formats. This will allow us to start with basically any type of geospatial file format, but I'll use shapefiles in this demo. 
 
