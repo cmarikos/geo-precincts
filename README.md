@@ -45,7 +45,7 @@ ogr2ogr -f "CSV" us_states.csv "tl_2025_us_state.shp" -lco GEOMETRY=AS_WKT
 This creates `us_states.csv` with a column called **WKT** containing the geospatial boundaries for US States.
 
 ### Step 5: BigQuery Upload & Geometry Conversion
-Upload your `us_states.csv` to BigQuery. Once loaded, you must convert the WKT string into a GEOGRAPHY type using a view.
+Upload your `us_states.csv` to BigQuery. This is basically only useable as a workflow from BigQuery to Data Studio. Once loaded, you must convert the WKT string into a GEOGRAPHY type using a view.
 
 ##### Important note
 Your column containing Geospatial data must be named **"GEOMETRY"** for Looker Studio to accept it as Geospatial data.
